@@ -6,17 +6,21 @@ const NavBar = () => {
   return (
     <header>
       <Link to={"/"}>
-        <h1>Marolio Online</h1>
+        <h1> Adidas</h1>
       </Link>
 
       <nav>
         <ul>
           <li>
-            <NavLink to={`/categoria/2`}> Lácteos </NavLink>
+            <NavLink to={`/categoria/2`}><strong>Hombre</strong></NavLink>
           </li>
 
           <li>
-            <NavLink to={`/categoria/3`}> Almacén </NavLink>
+            <NavLink to={`/categoria/3`}><strong>Mujer</strong></NavLink>
+          </li>
+
+          <li>
+            <NavLink to={`/categoria/4`}><strong>Niños</strong></NavLink>
           </li>
 
         </ul>

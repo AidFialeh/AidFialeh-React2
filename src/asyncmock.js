@@ -1,8 +1,11 @@
 const productos = [
-    { nombre: "Yerba", precio: 500, id: "1", img: "../img/yerba.jpg", idCat: "2" },
-    { nombre: "Fideos", precio: 180, id: "2", img: "../img/fideos.jpg", idCat: "2" },
-    { nombre: "Arroz", precio: 200, id: "3", img: "../img/arroz.jpg", idCat: "3" },
-    { nombre: "Aceite", precio: 400, id: "4", img: "../img/aceite.jpg", idCat: "3" },
+    { nombre: "Conjunto Sport", precio: 15000, id: "1", img: "../img/hombre.jpg", idCat: "2" },
+    { nombre: "Zapatillas Style", precio: 18000, id: "2", img: "../img/hombre1.jpg", idCat: "2" },
+    { nombre: "Zapatillas Urban", precio: 20000, id: "3", img: "../img/mujer.jpg", idCat: "3" },
+    { nombre: "Botines Espaciales", precio: 40000, id: "4", img: "../img/mujer1.jpg", idCat: "3" },
+    { nombre: "Conjunto Quita Frio", precio: 40000, id: "5", img: "../img/niños.jpg", idCat: "4" },
+    { nombre: "Conjunto Canchero", precio: 34000, id: "6", img: "../img/niños1.jpg", idCat: "4" },
+
 ]
 
 export const getProductos = () => {
